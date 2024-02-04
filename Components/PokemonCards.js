@@ -108,26 +108,26 @@ const styles = StyleSheet.create({
         paddingVertical: 6,
         paddingHorizontal: 12,
         borderRadius: 20,
-        borderWidth: 4,
+        borderWidth: 3,
     },
     emoji: {
         fontSize: 30,
         marginRight: 12
     },
-    movesContainer:{
-        marginBottom:16,
+    movesContainer: {
+        marginBottom: 16,
 
     },
-    movesText:{
-        fontSize:18,
-        fontWeight:'bold'
+    movesText: {
+        fontSize: 18,
+        fontWeight: 'bold'
     },
-    weaknescontainer:{
-        marginBottom:8
+    weaknescontainer: {
+        marginBottom: 8
     },
-    weaknessText:{
-        fontSize:18,
-        fontWeight:'bold'
+    weaknessText: {
+        fontSize: 18,
+        fontWeight: 'bold'
     }
 
 })
