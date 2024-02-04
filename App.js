@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View,SafeAreaView,Platform ,ScrollView} from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, Platform, ScrollView } from 'react-native';
 import PokemonCard from './Components/PokemonCards';
 export default function App() {
 
@@ -39,13 +39,13 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-    <ScrollView>
-     <PokemonCard {...charmanderData}/>
-     <PokemonCard {...squirtleData}/>
-     <PokemonCard {...pikachuData}/>
-     <PokemonCard {...bulbasaurData}/>
-   </ScrollView>
-      
+      <ScrollView>
+        <PokemonCard {...charmanderData} />
+        <PokemonCard {...squirtleData} />
+        <PokemonCard {...pikachuData} />
+        <PokemonCard {...bulbasaurData} />
+      </ScrollView>
+
     </SafeAreaView>
   );
 }
@@ -54,6 +54,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop:Platform.OS==='android'? 25:0
+    paddingTop: Platform.OS === 'android' ? 25 : 0
   },
 });
